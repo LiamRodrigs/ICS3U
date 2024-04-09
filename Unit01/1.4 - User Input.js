@@ -1,5 +1,7 @@
+// Declared Command
 const prompt = require('prompt-sync')();
 
+// Printing 1.4 - User Input to the console
 console.log("1.4 - User Input");
 
 // Asking for the year of birth
