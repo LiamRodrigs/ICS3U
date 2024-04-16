@@ -1,3 +1,4 @@
+// Declared initial and required prompt
 const prompt = require('prompt-sync')();
 
 console.log("1.4 - User Input");
