@@ -11,14 +11,14 @@ let unit = user_input.slice(-1);
 let temperature = parseInt(user_input);
 
 // Check if the last character is "C" for Celsius or "F" for Fahrenheit
-if (unit === "C") {
+if (unit == "C") {
     // Convert Celsius to Fahrenheit
     let converted_temperature = (temperature * 9 / 5) + 32;
     // Round the answer to one decimal place
     converted_temperature = converted_temperature.toFixed(1);
     // Output the converted temperature
     console.log(converted_temperature + "F");
-} else if (unit === "F") {
+} else if (unit == "F") {
     // Convert Fahrenheit to Celsius
     let converted_temperature = (temperature - 32) * 5 / 9;
     // Round the answer to one decimal place
