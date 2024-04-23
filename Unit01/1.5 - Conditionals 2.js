@@ -62,27 +62,27 @@ if (hour >= 0 && hour <= 11) {
 let random_number = Math.floor(Math.random() * 10);
 
 // Output if the value is zero
-if (random_number === 0) {
+if (random_number == 0) {
     console.log("The random number is zero.");
 }
 
 // Output if the value is even
-if (random_number % 2 === 0) {
+if (random_number % 2 == 0) {
     console.log("The random number is even.");
 }
 
 // Output if the value is divisible by 2 AND 3
-if (random_number % 2 === 0 && random_number % 3 === 0) {
+if (random_number % 2 == 0 && random_number % 3 == 0) {
     console.log("The random number is divisible by 2 and 3.");
 }
 
 // Output if the value is prime
 let is_prime = true;
-if (random_number === 1 || random_number === 0) {
+if (random_number == 1 || random_number == 0) {
     is_prime = false;
 } else {
     for (let i = 2; i <= Math.sqrt(random_number); i++) {
-        if (random_number % i === 0) {
+        if (random_number % i == 0) {
             is_prime = false;
             break;
         }
