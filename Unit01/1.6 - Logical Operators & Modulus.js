@@ -5,7 +5,7 @@ const prompt = require('prompt-sync')();
 let playGame = prompt("Do you want to play a game? (y/n): ");
 
 // Check if the user wants to play the game
-if (playGame.toLowerCase() === 'y') {
+if (playGame.toLowerCase() == 'y') {
     // Ask the user to enter the first number
     let firstNumber = parseInt(prompt("Enter a number: "));
     
@@ -18,7 +18,7 @@ if (playGame.toLowerCase() === 'y') {
     let secondNumber = parseInt(prompt("Enter another number: "));
     
     // Check if the second number is even or odd
-    if (secondNumber % 2 === 0) {
+    if (secondNumber % 2 == 0) {
         console.log("Your next number should be odd.");
     } else {
         console.log("Your next number should be even.");
@@ -28,14 +28,14 @@ if (playGame.toLowerCase() === 'y') {
     let thirdNumber = parseInt(prompt("Enter the final number: "));
     
     // Check if the set of numbers is Squirrelly
-    if ((firstNumber + secondNumber + thirdNumber + 1) % 10 === 0) {
+    if ((firstNumber + secondNumber + thirdNumber + 1) % 10 == 0) {
         console.log("Your numbers are Squirrelly!");
     } else {
         console.log("Your numbers are not Squirrelly.");
     }
     
     // Check if the set of numbers is Jazzy
-    if (firstNumber % 3 === 0 || secondNumber % 3 === 0 || thirdNumber % 3 === 0) {
+    if (firstNumber % 3 == 0 || secondNumber % 3 == 0 || thirdNumber % 3 == 0) {
         console.log("Your numbers are Jazzy!");
     } else {
         console.log("Your numbers are not Jazzy.");
@@ -45,7 +45,7 @@ if (playGame.toLowerCase() === 'y') {
 }
 
 // Check if the user wants to play the game
-if (playGame.toLowerCase() === 'y') {
+if (playGame.toLowerCase() == 'y') {
     // Ask the user to enter the first number
     let firstNumber = parseInt(prompt("Enter a number: "));
     
@@ -58,7 +58,7 @@ if (playGame.toLowerCase() === 'y') {
     let secondNumber = parseInt(prompt("Enter another number: "));
     
     // Check if the second number is even or odd
-    if (secondNumber % 2 === 0) {
+    if (secondNumber % 2 == 0) {
         console.log("Your next number should be odd.");
     } else {
         console.log("Your next number should be even.");
@@ -68,7 +68,7 @@ if (playGame.toLowerCase() === 'y') {
     let thirdNumber = parseInt(prompt("Enter the final number: "));
     
     // Check if the set of numbers is Squirrelly
-    if ((firstNumber + secondNumber + thirdNumber + 1) % 10 === 0) {
+    if ((firstNumber + secondNumber + thirdNumber + 1) % 10 == 0) {
         console.log("Your numbers are Squirrelly!");
     } else {
         console.log("Your numbers are not Squirrelly.");
@@ -76,13 +76,13 @@ if (playGame.toLowerCase() === 'y') {
     
     // Check if the set of numbers is Jazzy
     let jazzyCount = 0;
-    if (firstNumber % 3 === 0) {
+    if (firstNumber % 3 == 0) {
         jazzyCount++;
     }
-    if (secondNumber % 3 === 0) {
+    if (secondNumber % 3 == 0) {
         jazzyCount++;
     }
-    if (thirdNumber % 3 === 0) {
+    if (thirdNumber % 3 == 0) {
         jazzyCount++;
     }
     if (jazzyCount >= 2) {

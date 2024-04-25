@@ -16,7 +16,7 @@ const user_name = prompt("Please enter your name: ");
 
 // Check if the user's name is "Mr. J" and print the Nemo emoji if true
 // Check if the user's name is longer than 7 characters and print a message if true
-if (user_name === "Mr. J") {
+if (user_name == "Mr. J") {
     console.log("🐠");
 } else if (user_name.length > 7) {
     console.log("You have a long name.");
@@ -26,7 +26,7 @@ if (user_name === "Mr. J") {
 const name_length = parseInt(prompt("How long is your name? (Enter the number of characters): "));
 
 // Check if the user's input matches the length of their name and print the result
-if (name_length === user_name.length) {
+if (name_length == user_name.length) {
     console.log("That's correct! ✔️");
 } else if (name_length > user_name.length) {
     console.log("Too high ✖️");
@@ -35,7 +35,7 @@ if (name_length === user_name.length) {
 }
 
 // Check if the user's age is even or odd and print the result
-if (user_age % 2 === 0) {
+if (user_age % 2 == 0) {
     console.log("Your age is an even number.");
 } else {
     console.log("Your age is an odd number.");
