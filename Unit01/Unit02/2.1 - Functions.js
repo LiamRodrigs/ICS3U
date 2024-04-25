@@ -38,13 +38,13 @@ var secondNumber = prompt("Can you give me your second number option, no matter 
     let result;
 
     // Perform the calculation based on the operator
-    if (operator === '+') {
+    if (operator == '+') {
         result = num1 + num2;
-    } else if (operator === '-') {
+    } else if (operator == '-') {
         result = num1 - num2;
-    } else if (operator === '*') {
+    } else if (operator == '*') {
         result = num1 * num2;
-    } else if (operator === '/') {
+    } else if (operator == '/') {
         // Check if the second number is not zero to avoid division by zero error
         if (num2 !== 0) {
             result = num1 / num2;
@@ -65,16 +65,16 @@ calculator(operator);
 // Define the pythagorean function
 function pythagorean(legA, legB, hypotenuse) {
     // Check which side is missing
-    if (hypotenuse === false) {
+    if (hypotenuse == false) {
         // Solve for the hypotenuse
         let calculatedHypotenuse = Math.sqrt(legA**2 + legB**2);
         console.log(`The hypotenuse is: ${calculatedHypotenuse}`);
     } else {
         // Solve for the missing leg
-        if (legA === null) {
+        if (legA == null) {
             let calculatedLegA = Math.sqrt(hypotenuse**2 - legB**2);
             console.log(`The length of legA is: ${calculatedLegA}`);
-        } else if (legB === null) {
+        } else if (legB == null) {
             let calculatedLegB = Math.sqrt(hypotenuse**2 - legA**2);
             console.log(`The length of legB is: ${calculatedLegB}`);
         }
