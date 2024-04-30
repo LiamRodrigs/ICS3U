@@ -30,7 +30,16 @@ function area_label(r, h) {
 
 // Creating a function defining the surface area of a cylinder 
 function area_cylinder(r, h) {
-    if (area=t) {
-        return radiusgiven;
-    }   else (A = 3.14*x)
-        return areaofacircle;} 
+    if (area_circle(r)*area_label(r,h)) {
+        return surfaceareaofacylinder ;
+    }   else (A=2*π*r*h+2*π*r*2)
+        return surfaceareaofacylinder;} 
+
+// Creating a function defining if the ghosts are going to be made if they are in 3 specific moods such as the ones they intially have which include to be "angry", "laughing", and lastly the mode of being neutral
+function ghost_watch(polter, wolter) {
+    if (polterandwolterbothlaughing) {
+        return true;
+    if (polterandwolterbothangry) {
+    }   return true;
+    }   else check (polter&&wolterneutral)
+        return false} 
