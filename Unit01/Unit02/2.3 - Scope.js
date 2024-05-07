@@ -12,10 +12,6 @@ function myFunction() {
 // outputting the official value of localvar to the console
 console.log("This is the value of localvar:", localVar);
 
-
-// letting a global variable be equivalent to the value of 5 
-let my_global_variable = 5;
-
 // equating func sample to equal true 
 function sample() {
   let func_variable = true;  
