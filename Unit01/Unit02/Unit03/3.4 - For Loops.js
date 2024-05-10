@@ -28,3 +28,25 @@ countDown(15, 5)
 6
 5
 
+// Part 2 : Returning a value whether it increases (increments) or even on the contrast in decreasing (decrements)
+
+// 1. 
+Sum(n)
+Sum(18)
+for (let i = 18; i + 1; i++) {
+    return 1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18;
+  }  return 171;   // adding up numbers such as 1 all the way to 18 using a for loop
+
+// 2.
+count5(begin, end)
+count5(2,63) 
+    for (let i = 55; i / 5;) {
+        return 5/5, 10/5, 15/5, 20/5, 25/5, 40/5, 45/5, 50/5, 55/5, 60/5;
+      }  return 10;   // having a count where it begins to the final end and as an inclusive value represents divisibility of 10 numbers in total by a divisible factor and operator considered 5
+
+// 3.
+sum_divisible(n,x)
+sum_divisible(66,8)
+for (let i = 66; i / 8;) {
+    return 8+16+24+32+40+48+56+64;
+  }  return 288;    // having a divisibility factor along with parametres of a additonal factor representing the sum of n,x
