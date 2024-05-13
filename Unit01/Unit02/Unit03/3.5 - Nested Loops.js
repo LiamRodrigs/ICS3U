@@ -74,7 +74,7 @@ function print_outline(){
                 if (i == 0 || i == size - 1 || j == 0 || j == size - 1) {
                     outline += "⚽"; // On the outline, using the ⚽ emoji
                 } else {
-                    outline += "🏈"; // Using 🏈 emoji for the middle
+                    outline += "🏈"; // Using 🏈 emoji for the middle 
                 }
             }
             outline += "\n"; // Add a newline after each row
