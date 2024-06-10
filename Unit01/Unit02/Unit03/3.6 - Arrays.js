@@ -35,7 +35,7 @@ contains(someValues, 1.2);         // Returns true
 contains(someValues, "⚽");       // Returns false
 
 68 == "68"    // true, comparing values
-68 === "68"   // false, compares data type
+68 == "68"   // false, compares data type
 
 // Challenge tasks
 // 5.
@@ -67,3 +67,9 @@ hhhhhhhhhhhhhhha
 
 // Returns the following:
 ["hhhhhhhhhhhhhhha", "!emitdeb", "?kdi", "racecar", ".yeh"]
+
+// the average amongst every single number
+let onearray = [0,10,20,30,40,50]
+let twoarray = [0,20,40,60,80,100]
+
+let avg = (one[0]-two[0] + one[1]-two[1] + one[2]-two[2] + one[3]-two[3]) / 4 ;
