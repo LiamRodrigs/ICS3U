@@ -70,3 +70,16 @@ function average(n) {
 }
 
 average(5);
+
+const prompt = (require)
+randInt (1>10)
+
+let R = 1
+let G = 2
+let B = 3
+
+let user_input = prompt(Value> R,G,B)
+
+let calculateR = (1+0)
+let CalculateG = (1+1)
+let calculateB = (2+1)
