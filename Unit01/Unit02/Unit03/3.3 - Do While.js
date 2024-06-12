@@ -44,3 +44,14 @@ parrotuntilquit()
   5040
   factorial(0.5);
   0.0012
+
+  number1to10() 
+  let user_input;
+  do {
+    user_input = text(prompt("Enter a number between 1 to 10"));
+  } while (isNaN(user_input))
+  
+  if (isNaN(quit)) {
+      console.log("invalid use of number")
+  
+  return input; }
